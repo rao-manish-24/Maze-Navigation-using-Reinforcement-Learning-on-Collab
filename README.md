@@ -4,17 +4,17 @@ This project demonstrates how reinforcement learning (RL) techniques can solve m
 
 # Features
 # Key Highlights
-# Custom Maze Environment: Users can define their own maze with walls, paths, and goals.
-# Q-Learning Algorithm: Implements Q-learning, with support for hyperparameter tuning to optimize learning.
-# Visualization: Offers real-time visualization of the agent's path and learning progress.
-# Performance Metrics: Evaluates the agent's navigation using metrics such as:
+ Custom Maze Environment: Users can define their own maze with walls, paths, and goals.
+ Q-Learning Algorithm: Implements Q-learning, with support for hyperparameter tuning to optimize learning.
+Visualization: Offers real-time visualization of the agent's path and learning progress.
+Performance Metrics: Evaluates the agent's navigation using metrics such as:
 Total path length
 Number of turns
 Branching points
 Path efficiency
 Manhattan distance to the goal
 # Results
-# A sample output includes:
+A sample output includes:
 
 Path Length: 29 steps
 Turns: 9
@@ -37,9 +37,9 @@ pip install numpy matplotlib notebook pandas
 # Step 1: Maze Setup
 Define the maze grid, specifying start and goal points as well as obstacles.
 # Step 2: Q-Learning Implementation
-# States: Each cell in the maze.
-# Actions: Possible moves (up, down, left, right).
-# Rewards:
+States: Each cell in the maze.
+Actions: Possible moves (up, down, left, right).
+Rewards:
 Positive reward for reaching the goal.
 Penalty for hitting walls or taking longer paths.
 Exploration Strategy: Epsilon-greedy policy for balancing exploration and exploitation.
