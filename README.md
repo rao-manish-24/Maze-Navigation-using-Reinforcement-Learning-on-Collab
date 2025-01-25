@@ -64,6 +64,7 @@ Visualization of the learned optimal path.
 
 
 # Customization
+
 Modify the maze dimensions, obstacles, and reward settings to test various scenarios.
 Experiment with hyperparameters like:
 Learning rate (α)
@@ -73,6 +74,7 @@ Exploration factor (ϵ)
 # Example Output
 
 Detailed Path Analysis Results:
+
 Total Path Length: 29
 Number of Turns: 9
 Branching Points: 7
